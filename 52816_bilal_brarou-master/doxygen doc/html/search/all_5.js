@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['game_21',['Game',['../class_game.html',1,'Game'],['../class_game.html#a1cc08d769879ca415f3a3eea21303dfd',1,'Game::Game()']]],
+  ['game_2ecpp_22',['Game.cpp',['../_game_8cpp.html',1,'']]],
+  ['game_2eh_23',['Game.h',['../_game_8h.html',1,'']]],
+  ['gameview_24',['GameView',['../class_game_view.html',1,'GameView'],['../class_game_view.html#af59dd5c6c5072d3e882572f704525c94',1,'GameView::GameView()']]],
+  ['gameview_2ecpp_25',['GameView.cpp',['../_game_view_8cpp.html',1,'']]],
+  ['gameview_2eh_26',['GameView.h',['../_game_view_8h.html',1,'']]],
+  ['getboard_27',['getBoard',['../class_game.html#abb01bda7e2fecca8571706abec4bc3dd',1,'Game']]],
+  ['getcell_28',['getCell',['../class_cell_view.html#a6775ef2c817451efaeb80881b3701993',1,'CellView']]],
+  ['getcol_29',['getCol',['../class_board.html#aaab76520ac9640cbda4b8dff8e2f7307',1,'Board']]],
+  ['getcolor_30',['getColor',['../class_cell.html#a938cdb0ffec74d1015d74930aab892ca',1,'Cell']]],
+  ['getligne_31',['getLigne',['../class_board.html#a86ffe12603528c45d131192554446075',1,'Board']]],
+  ['getnbcolors_32',['getNbColors',['../class_game.html#ae5266b76de7f29a982f7806a641c3364',1,'Game']]],
+  ['getnbmoves_33',['getNbMoves',['../class_game.html#aad18e59c017cd91c1c40ca36e4d4b2fd',1,'Game']]],
+  ['getplate_34',['getPlate',['../class_board.html#a7a1f2b1385aff38094396d252ad43796',1,'Board']]],
+  ['getscore_35',['getScore',['../class_file_manager.html#a34a281aec4e816d075a14d3ad57130b1',1,'FileManager']]],
+  ['green_36',['GREEN',['../_color_8h.html#ab87bacfdad76e61b9412d7124be44c1caa60bd322f93178d68184e30e162571ca',1,'Color.h']]]
+];

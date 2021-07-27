@@ -1,0 +1,124 @@
+\hypertarget{class_board}{}\doxysection{Board Class Reference}
+\label{class_board}\index{Board@{Board}}
+
+
+The \mbox{\hyperlink{class_board}{Board}} class represent a plate 2D colors of the Flood-\/it \mbox{\hyperlink{class_game}{Game}}.  
+
+
+
+
+{\ttfamily \#include $<$Board.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_board_acf2f8c69fae64e8f4c10e16a61d92ede}{Board}} (unsigned x, unsigned y)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_board}{Board}} Create a \mbox{\hyperlink{class_board}{Board}} that contains Cells of Colors. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{class_cell}{Cell}} $\ast$ $>$ $>$ \& \mbox{\hyperlink{class_board_a7a1f2b1385aff38094396d252ad43796}{get\+Plate}} ()
+\begin{DoxyCompactList}\small\item\em get\+Plate get the plate \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_board_a2adf1a4d16e74e4b18408040478f9e49}{resize\+To}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em resize\+To resize the plate to x L\+I\+NE and to y C\+O\+L\+U\+M\+NS \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{class_board_a86ffe12603528c45d131192554446075}{get\+Ligne}} () const
+\begin{DoxyCompactList}\small\item\em get\+Ligne get the line length \end{DoxyCompactList}\item 
+size\+\_\+t \mbox{\hyperlink{class_board_aaab76520ac9640cbda4b8dff8e2f7307}{get\+Col}} () const
+\begin{DoxyCompactList}\small\item\em get\+Col get the col length \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_board_af73f45730119a1fd8f6670f53f959e68}{$\sim$\+Board}} ()
+\begin{DoxyCompactList}\small\item\em $\sim$\+Board delete all the dynamically allocated resources \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{class_board}{Board}} class represent a plate 2D colors of the Flood-\/it \mbox{\hyperlink{class_game}{Game}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_board_acf2f8c69fae64e8f4c10e16a61d92ede}\label{class_board_acf2f8c69fae64e8f4c10e16a61d92ede}} 
+\index{Board@{Board}!Board@{Board}}
+\index{Board@{Board}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{Board()}{Board()}}
+{\footnotesize\ttfamily Board\+::\+Board (\begin{DoxyParamCaption}\item[{unsigned}]{x,  }\item[{unsigned}]{y }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_board}{Board}} Create a \mbox{\hyperlink{class_board}{Board}} that contains Cells of Colors. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x length of the plate \\
+\hline
+{\em y} & the y length of the plate \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_board_af73f45730119a1fd8f6670f53f959e68}\label{class_board_af73f45730119a1fd8f6670f53f959e68}} 
+\index{Board@{Board}!````~Board@{$\sim$Board}}
+\index{````~Board@{$\sim$Board}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{$\sim$Board()}{~Board()}}
+{\footnotesize\ttfamily Board\+::$\sim$\+Board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+$\sim$\+Board delete all the dynamically allocated resources 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_board_aaab76520ac9640cbda4b8dff8e2f7307}\label{class_board_aaab76520ac9640cbda4b8dff8e2f7307}} 
+\index{Board@{Board}!getCol@{getCol}}
+\index{getCol@{getCol}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{getCol()}{getCol()}}
+{\footnotesize\ttfamily size\+\_\+t Board\+::get\+Col (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+get\+Col get the col length 
+
+\begin{DoxyReturn}{Returns}
+a unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_board_a86ffe12603528c45d131192554446075}\label{class_board_a86ffe12603528c45d131192554446075}} 
+\index{Board@{Board}!getLigne@{getLigne}}
+\index{getLigne@{getLigne}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{getLigne()}{getLigne()}}
+{\footnotesize\ttfamily size\+\_\+t Board\+::get\+Ligne (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+get\+Ligne get the line length 
+
+\begin{DoxyReturn}{Returns}
+a unsigned int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_board_a7a1f2b1385aff38094396d252ad43796}\label{class_board_a7a1f2b1385aff38094396d252ad43796}} 
+\index{Board@{Board}!getPlate@{getPlate}}
+\index{getPlate@{getPlate}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{getPlate()}{getPlate()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{class_cell}{Cell}} $\ast$ $>$ $>$ \& Board\+::get\+Plate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Plate get the plate 
+
+\begin{DoxyReturn}{Returns}
+a 2D vector of plate 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_board_a2adf1a4d16e74e4b18408040478f9e49}\label{class_board_a2adf1a4d16e74e4b18408040478f9e49}} 
+\index{Board@{Board}!resizeTo@{resizeTo}}
+\index{resizeTo@{resizeTo}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{resizeTo()}{resizeTo()}}
+{\footnotesize\ttfamily void Board\+::resize\+To (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+resize\+To resize the plate to x L\+I\+NE and to y C\+O\+L\+U\+M\+NS 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the plate will have a L\+I\+NE length of x \\
+\hline
+{\em y} & the plate will have a C\+OL length of y \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_board_8h}{Board.\+h}}\item 
+\mbox{\hyperlink{_board_8cpp}{Board.\+cpp}}\end{DoxyCompactItemize}

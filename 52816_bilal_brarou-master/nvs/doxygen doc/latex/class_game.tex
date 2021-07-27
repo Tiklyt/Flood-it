@@ -1,0 +1,178 @@
+\hypertarget{class_game}{}\doxysection{Game Class Reference}
+\label{class_game}\index{Game@{Game}}
+
+
+The \mbox{\hyperlink{class_game}{Game}} class contains all the resources to play the game.  
+
+
+
+
+{\ttfamily \#include $<$Game.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_game_a1cc08d769879ca415f3a3eea21303dfd}{Game}} (\mbox{\hyperlink{class_board}{Board}} \&board, unsigned nb\+Colors)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_game}{Game}} Create a \mbox{\hyperlink{class_game}{Game}} with a board and a number of colors. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a3e65de1b39fcb40d47f6b9b2e0253b18}{color\+Changer}} (unsigned short x, unsigned short y, \mbox{\hyperlink{_color_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color}} old\+Color, \mbox{\hyperlink{_color_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color}} new\+Color)
+\begin{DoxyCompactList}\small\item\em color\+Changer Recursive functions that begin with x = 0 and y = 0 and will propage the board and change the colors to the new Colors \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a77a54abff04323740021e8f4663dd85e}{inc\+Nb\+Move}} ()
+\begin{DoxyCompactList}\small\item\em inc\+Nb\+Move Increment the number of moves \end{DoxyCompactList}\item 
+unsigned \mbox{\hyperlink{class_game_ae5266b76de7f29a982f7806a641c3364}{get\+Nb\+Colors}} () const
+\begin{DoxyCompactList}\small\item\em get\+Nb\+Colors get the number of colors \end{DoxyCompactList}\item 
+unsigned \mbox{\hyperlink{class_game_aad18e59c017cd91c1c40ca36e4d4b2fd}{get\+Nb\+Moves}} () const
+\begin{DoxyCompactList}\small\item\em get\+Nb\+Moves get the number of moves \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a08ac841ac901cc9ef06b2813b7d6e9c2}{reset\+Nb\+Move}} ()
+\begin{DoxyCompactList}\small\item\em reset\+Nb\+Move reset the number of moves \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a3cb75a8f8b902f84f8e92ac7a0ddae43}{set\+Nb\+Colors}} (unsigned colors)
+\begin{DoxyCompactList}\small\item\em set\+Nb\+Colors change the number of colors \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a8d7b861e54832fb3e15e78d130ba1b43}{randomize}} ()
+\begin{DoxyCompactList}\small\item\em randomize change all the colors of the board randomly \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_game_a8d56aab90e15f611cfb5c44ba757fbeb}{has\+Won}} ()
+\begin{DoxyCompactList}\small\item\em has\+Won Check if the user have won \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_board}{Board}} \& \mbox{\hyperlink{class_game_abb01bda7e2fecca8571706abec4bc3dd}{get\+Board}} ()
+\begin{DoxyCompactList}\small\item\em get\+Board get the board class \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{class_game}{Game}} class contains all the resources to play the game. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_game_a1cc08d769879ca415f3a3eea21303dfd}\label{class_game_a1cc08d769879ca415f3a3eea21303dfd}} 
+\index{Game@{Game}!Game@{Game}}
+\index{Game@{Game}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{Game()}{Game()}}
+{\footnotesize\ttfamily Game\+::\+Game (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_board}{Board}} \&}]{board,  }\item[{unsigned}]{nb\+Colors }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_game}{Game}} Create a \mbox{\hyperlink{class_game}{Game}} with a board and a number of colors. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em board} & the board \\
+\hline
+{\em nb\+Colors} & the number of colors \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_a3e65de1b39fcb40d47f6b9b2e0253b18}\label{class_game_a3e65de1b39fcb40d47f6b9b2e0253b18}} 
+\index{Game@{Game}!colorChanger@{colorChanger}}
+\index{colorChanger@{colorChanger}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{colorChanger()}{colorChanger()}}
+{\footnotesize\ttfamily void Game\+::color\+Changer (\begin{DoxyParamCaption}\item[{unsigned short}]{x,  }\item[{unsigned short}]{y,  }\item[{\mbox{\hyperlink{_color_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color}}}]{old\+Color,  }\item[{\mbox{\hyperlink{_color_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color}}}]{new\+Color }\end{DoxyParamCaption})}
+
+
+
+color\+Changer Recursive functions that begin with x = 0 and y = 0 and will propage the board and change the colors to the new Colors 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & x = 0 \\
+\hline
+{\em y} & y = 0 \\
+\hline
+{\em old\+Color} & Color at plate\mbox{[}0\mbox{]}\mbox{[}0\mbox{]} \\
+\hline
+{\em new\+Color} & The new colors that the user want to affect to the other \mbox{\hyperlink{class_cell}{Cell}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_abb01bda7e2fecca8571706abec4bc3dd}\label{class_game_abb01bda7e2fecca8571706abec4bc3dd}} 
+\index{Game@{Game}!getBoard@{getBoard}}
+\index{getBoard@{getBoard}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getBoard()}{getBoard()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_board}{Board}} \& Game\+::get\+Board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Board get the board class 
+
+\begin{DoxyReturn}{Returns}
+a board reference 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_ae5266b76de7f29a982f7806a641c3364}\label{class_game_ae5266b76de7f29a982f7806a641c3364}} 
+\index{Game@{Game}!getNbColors@{getNbColors}}
+\index{getNbColors@{getNbColors}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getNbColors()}{getNbColors()}}
+{\footnotesize\ttfamily unsigned Game\+::get\+Nb\+Colors (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+get\+Nb\+Colors get the number of colors 
+
+\mbox{\Hypertarget{class_game_aad18e59c017cd91c1c40ca36e4d4b2fd}\label{class_game_aad18e59c017cd91c1c40ca36e4d4b2fd}} 
+\index{Game@{Game}!getNbMoves@{getNbMoves}}
+\index{getNbMoves@{getNbMoves}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getNbMoves()}{getNbMoves()}}
+{\footnotesize\ttfamily unsigned Game\+::get\+Nb\+Moves (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+get\+Nb\+Moves get the number of moves 
+
+\mbox{\Hypertarget{class_game_a8d56aab90e15f611cfb5c44ba757fbeb}\label{class_game_a8d56aab90e15f611cfb5c44ba757fbeb}} 
+\index{Game@{Game}!hasWon@{hasWon}}
+\index{hasWon@{hasWon}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{hasWon()}{hasWon()}}
+{\footnotesize\ttfamily bool Game\+::has\+Won (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+has\+Won Check if the user have won 
+
+\begin{DoxyReturn}{Returns}
+true or false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a77a54abff04323740021e8f4663dd85e}\label{class_game_a77a54abff04323740021e8f4663dd85e}} 
+\index{Game@{Game}!incNbMove@{incNbMove}}
+\index{incNbMove@{incNbMove}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{incNbMove()}{incNbMove()}}
+{\footnotesize\ttfamily void Game\+::inc\+Nb\+Move (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+inc\+Nb\+Move Increment the number of moves 
+
+\mbox{\Hypertarget{class_game_a8d7b861e54832fb3e15e78d130ba1b43}\label{class_game_a8d7b861e54832fb3e15e78d130ba1b43}} 
+\index{Game@{Game}!randomize@{randomize}}
+\index{randomize@{randomize}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{randomize()}{randomize()}}
+{\footnotesize\ttfamily void Game\+::randomize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+randomize change all the colors of the board randomly 
+
+\mbox{\Hypertarget{class_game_a08ac841ac901cc9ef06b2813b7d6e9c2}\label{class_game_a08ac841ac901cc9ef06b2813b7d6e9c2}} 
+\index{Game@{Game}!resetNbMove@{resetNbMove}}
+\index{resetNbMove@{resetNbMove}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{resetNbMove()}{resetNbMove()}}
+{\footnotesize\ttfamily void Game\+::reset\+Nb\+Move (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+reset\+Nb\+Move reset the number of moves 
+
+\mbox{\Hypertarget{class_game_a3cb75a8f8b902f84f8e92ac7a0ddae43}\label{class_game_a3cb75a8f8b902f84f8e92ac7a0ddae43}} 
+\index{Game@{Game}!setNbColors@{setNbColors}}
+\index{setNbColors@{setNbColors}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setNbColors()}{setNbColors()}}
+{\footnotesize\ttfamily void Game\+::set\+Nb\+Colors (\begin{DoxyParamCaption}\item[{unsigned}]{colors }\end{DoxyParamCaption})}
+
+
+
+set\+Nb\+Colors change the number of colors 
+
+
+\begin{DoxyParams}{Parameters}
+{\em colors} & the new nb Colors \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_game_8h}{Game.\+h}}\item 
+\mbox{\hyperlink{_game_8cpp}{Game.\+cpp}}\end{DoxyCompactItemize}

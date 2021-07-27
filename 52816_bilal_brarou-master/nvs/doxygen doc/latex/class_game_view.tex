@@ -1,0 +1,141 @@
+\hypertarget{class_game_view}{}\doxysection{Game\+View Class Reference}
+\label{class_game_view}\index{GameView@{GameView}}
+
+
+The \mbox{\hyperlink{class_game_view}{Game\+View}} class represent the view of the game.  
+
+
+
+
+{\ttfamily \#include $<$Game\+View.\+h$>$}
+
+Inheritance diagram for Game\+View\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_game_view}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_game_view_af59dd5c6c5072d3e882572f704525c94}{Game\+View}} (\mbox{\hyperlink{class_game}{Game}} \&game, Q\+Widget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_game_view}{Game\+View}} create the game view with a game model. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_view_a1711c28ce56def801fac430d319adbd2}{draw\+Board}} ()
+\begin{DoxyCompactList}\small\item\em draw\+Board draw the 2D plate \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_view_abc3d20df8c49007395abbb555dadc09a}{draw\+Button}} ()
+\begin{DoxyCompactList}\small\item\em draw\+Button draw the button for changing size of the play start or change the number of colors \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_view_a8c3f3fc7107672da53457a469d153772}{resize\+To}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em resize\+To resize the board of the game logicaly and graphicaly \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_view_a5e88572d1fa9ffcb39e14a4b6866b1e0}{initialize}} ()
+\begin{DoxyCompactList}\small\item\em initialize initialize the windows of the game and all the text needed \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_view_aab3759f03dcd205067d0856b41d7c01e}{initialize\+Button}} ()
+\begin{DoxyCompactList}\small\item\em initialize\+Button create button and them to the windows \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_view_ae5455169aa79cf8141e5ac0b0a5143d8}{initialize\+\_\+connection}} ()
+\begin{DoxyCompactList}\small\item\em initialize\+\_\+connection connect every cell of the game to a event \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_game_view_a957dca86bb68a729188f167f7d45ab86}{$\sim$\+Game\+View}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{class_game_view}{Game\+View}} class represent the view of the game. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_game_view_af59dd5c6c5072d3e882572f704525c94}\label{class_game_view_af59dd5c6c5072d3e882572f704525c94}} 
+\index{GameView@{GameView}!GameView@{GameView}}
+\index{GameView@{GameView}!GameView@{GameView}}
+\doxysubsubsection{\texorpdfstring{GameView()}{GameView()}}
+{\footnotesize\ttfamily Game\+View\+::\+Game\+View (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_game}{Game}} \&}]{game,  }\item[{Q\+Widget $\ast$}]{parent = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_game_view}{Game\+View}} create the game view with a game model. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game} & the game model \\
+\hline
+{\em parent} & null \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_view_a957dca86bb68a729188f167f7d45ab86}\label{class_game_view_a957dca86bb68a729188f167f7d45ab86}} 
+\index{GameView@{GameView}!````~GameView@{$\sim$GameView}}
+\index{````~GameView@{$\sim$GameView}!GameView@{GameView}}
+\doxysubsubsection{\texorpdfstring{$\sim$GameView()}{~GameView()}}
+{\footnotesize\ttfamily Game\+View\+::$\sim$\+Game\+View (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_view_a1711c28ce56def801fac430d319adbd2}\label{class_game_view_a1711c28ce56def801fac430d319adbd2}} 
+\index{GameView@{GameView}!drawBoard@{drawBoard}}
+\index{drawBoard@{drawBoard}!GameView@{GameView}}
+\doxysubsubsection{\texorpdfstring{drawBoard()}{drawBoard()}}
+{\footnotesize\ttfamily void Game\+View\+::draw\+Board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+draw\+Board draw the 2D plate 
+
+\mbox{\Hypertarget{class_game_view_abc3d20df8c49007395abbb555dadc09a}\label{class_game_view_abc3d20df8c49007395abbb555dadc09a}} 
+\index{GameView@{GameView}!drawButton@{drawButton}}
+\index{drawButton@{drawButton}!GameView@{GameView}}
+\doxysubsubsection{\texorpdfstring{drawButton()}{drawButton()}}
+{\footnotesize\ttfamily void Game\+View\+::draw\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+draw\+Button draw the button for changing size of the play start or change the number of colors 
+
+\mbox{\Hypertarget{class_game_view_a5e88572d1fa9ffcb39e14a4b6866b1e0}\label{class_game_view_a5e88572d1fa9ffcb39e14a4b6866b1e0}} 
+\index{GameView@{GameView}!initialize@{initialize}}
+\index{initialize@{initialize}!GameView@{GameView}}
+\doxysubsubsection{\texorpdfstring{initialize()}{initialize()}}
+{\footnotesize\ttfamily void Game\+View\+::initialize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+initialize initialize the windows of the game and all the text needed 
+
+\mbox{\Hypertarget{class_game_view_ae5455169aa79cf8141e5ac0b0a5143d8}\label{class_game_view_ae5455169aa79cf8141e5ac0b0a5143d8}} 
+\index{GameView@{GameView}!initialize\_connection@{initialize\_connection}}
+\index{initialize\_connection@{initialize\_connection}!GameView@{GameView}}
+\doxysubsubsection{\texorpdfstring{initialize\_connection()}{initialize\_connection()}}
+{\footnotesize\ttfamily void Game\+View\+::initialize\+\_\+connection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+initialize\+\_\+connection connect every cell of the game to a event 
+
+\mbox{\Hypertarget{class_game_view_aab3759f03dcd205067d0856b41d7c01e}\label{class_game_view_aab3759f03dcd205067d0856b41d7c01e}} 
+\index{GameView@{GameView}!initializeButton@{initializeButton}}
+\index{initializeButton@{initializeButton}!GameView@{GameView}}
+\doxysubsubsection{\texorpdfstring{initializeButton()}{initializeButton()}}
+{\footnotesize\ttfamily void Game\+View\+::initialize\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+initialize\+Button create button and them to the windows 
+
+\mbox{\Hypertarget{class_game_view_a8c3f3fc7107672da53457a469d153772}\label{class_game_view_a8c3f3fc7107672da53457a469d153772}} 
+\index{GameView@{GameView}!resizeTo@{resizeTo}}
+\index{resizeTo@{resizeTo}!GameView@{GameView}}
+\doxysubsubsection{\texorpdfstring{resizeTo()}{resizeTo()}}
+{\footnotesize\ttfamily void Game\+View\+::resize\+To (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+resize\+To resize the board of the game logicaly and graphicaly 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the size of x to change the line length \\
+\hline
+{\em y} & the size of y to change the column length \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_game_view_8h}{Game\+View.\+h}}\item 
+\mbox{\hyperlink{_game_view_8cpp}{Game\+View.\+cpp}}\end{DoxyCompactItemize}

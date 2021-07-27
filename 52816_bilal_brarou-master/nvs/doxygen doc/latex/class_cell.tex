@@ -1,0 +1,124 @@
+\hypertarget{class_cell}{}\doxysection{Cell Class Reference}
+\label{class_cell}\index{Cell@{Cell}}
+
+
+The \mbox{\hyperlink{class_cell}{Cell}} class represent a Color \mbox{\hyperlink{class_cell}{Cell}}.  
+
+
+
+
+{\ttfamily \#include $<$Cell.\+h$>$}
+
+Inheritance diagram for Cell\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_cell}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_cell_a9b7ec380679ab6ae19b1803e8c4ae4fe}{Cell}} (\mbox{\hyperlink{_color_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color}} color)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_cell}{Cell}} Create a cell that contains one color. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_cell_a246d54ef2e569f97000fe94f5524e7ba}{$\sim$\+Cell}} ()=default
+\item 
+\mbox{\hyperlink{class_cell_a8a4b210b76ae4387021b2632d0c5c3c1}{Cell}} ()=default
+\item 
+void \mbox{\hyperlink{class_cell_ac80157f79ea39d684cbd02afb3025601}{set\+Color}} (\mbox{\hyperlink{_color_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color}} color)
+\begin{DoxyCompactList}\small\item\em set\+Color change the color of the cell \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{_color_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color}} \& \mbox{\hyperlink{class_cell_a938cdb0ffec74d1015d74930aab892ca}{get\+Color}} ()
+\begin{DoxyCompactList}\small\item\em get\+Color get the color from the cell \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cell_a4fda408aa4b0ec50113b8b5508fe3826}{notify}} () override
+\item 
+void \mbox{\hyperlink{class_cell_a8e98a567008050c0de8a4715d9720d5e}{attach}} (\mbox{\hyperlink{class_observer}{Observer}} $\ast$observer) override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{class_cell}{Cell}} class represent a Color \mbox{\hyperlink{class_cell}{Cell}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_cell_a9b7ec380679ab6ae19b1803e8c4ae4fe}\label{class_cell_a9b7ec380679ab6ae19b1803e8c4ae4fe}} 
+\index{Cell@{Cell}!Cell@{Cell}}
+\index{Cell@{Cell}!Cell@{Cell}}
+\doxysubsubsection{\texorpdfstring{Cell()}{Cell()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Cell\+::\+Cell (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_color_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color}}}]{color }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_cell}{Cell}} Create a cell that contains one color. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color} & color of the cell \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_cell_a246d54ef2e569f97000fe94f5524e7ba}\label{class_cell_a246d54ef2e569f97000fe94f5524e7ba}} 
+\index{Cell@{Cell}!````~Cell@{$\sim$Cell}}
+\index{````~Cell@{$\sim$Cell}!Cell@{Cell}}
+\doxysubsubsection{\texorpdfstring{$\sim$Cell()}{~Cell()}}
+{\footnotesize\ttfamily virtual Cell\+::$\sim$\+Cell (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [default]}}
+
+\mbox{\Hypertarget{class_cell_a8a4b210b76ae4387021b2632d0c5c3c1}\label{class_cell_a8a4b210b76ae4387021b2632d0c5c3c1}} 
+\index{Cell@{Cell}!Cell@{Cell}}
+\index{Cell@{Cell}!Cell@{Cell}}
+\doxysubsubsection{\texorpdfstring{Cell()}{Cell()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Cell\+::\+Cell (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_cell_a8e98a567008050c0de8a4715d9720d5e}\label{class_cell_a8e98a567008050c0de8a4715d9720d5e}} 
+\index{Cell@{Cell}!attach@{attach}}
+\index{attach@{attach}!Cell@{Cell}}
+\doxysubsubsection{\texorpdfstring{attach()}{attach()}}
+{\footnotesize\ttfamily void Cell\+::attach (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_observer}{Observer}} $\ast$}]{observer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_observable_ac4e4858fc84cc8a5c4682841a5033e19}{Observable}}.
+
+\mbox{\Hypertarget{class_cell_a938cdb0ffec74d1015d74930aab892ca}\label{class_cell_a938cdb0ffec74d1015d74930aab892ca}} 
+\index{Cell@{Cell}!getColor@{getColor}}
+\index{getColor@{getColor}!Cell@{Cell}}
+\doxysubsubsection{\texorpdfstring{getColor()}{getColor()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{_color_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color}} \& Cell\+::get\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+get\+Color get the color from the cell 
+
+\begin{DoxyReturn}{Returns}
+a color enum 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_cell_a4fda408aa4b0ec50113b8b5508fe3826}\label{class_cell_a4fda408aa4b0ec50113b8b5508fe3826}} 
+\index{Cell@{Cell}!notify@{notify}}
+\index{notify@{notify}!Cell@{Cell}}
+\doxysubsubsection{\texorpdfstring{notify()}{notify()}}
+{\footnotesize\ttfamily void Cell\+::notify (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_observable_ab368cc1235ef8792d3a8b98d539ea70b}{Observable}}.
+
+\mbox{\Hypertarget{class_cell_ac80157f79ea39d684cbd02afb3025601}\label{class_cell_ac80157f79ea39d684cbd02afb3025601}} 
+\index{Cell@{Cell}!setColor@{setColor}}
+\index{setColor@{setColor}!Cell@{Cell}}
+\doxysubsubsection{\texorpdfstring{setColor()}{setColor()}}
+{\footnotesize\ttfamily void Cell\+::set\+Color (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_color_8h_ab87bacfdad76e61b9412d7124be44c1c}{Color}}}]{color }\end{DoxyParamCaption})}
+
+
+
+set\+Color change the color of the cell 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color} & color we need to make change \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_cell_8h}{Cell.\+h}}\item 
+\mbox{\hyperlink{_cell_8cpp}{Cell.\+cpp}}\end{DoxyCompactItemize}
